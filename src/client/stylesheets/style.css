@@ -1,0 +1,142 @@
+.event .header{
+    width: 98%;
+    margin-left: 1%;
+}
+
+.event .space {
+    margin-top: 20px;
+}
+
+.event .applied {
+    margin-left: 70%;
+}
+.event .card-shadow{
+    box-shadow: 2px 2px 4px 1px rgba(85,123,163,0.38);
+}
+.event .card-shadow:hover{
+    box-shadow: 2px 3px 5px 0px rgba(139,210,232,1)
+}
+
+.event .check-icon {
+    color: #239c3f8a;
+    margin-left: 3px;
+}
+
+.event .share-icon{
+    color:#0f5096;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+.event .type-icon{
+    color: #dc3545bd;
+    font-size: 21px;
+    margin-right: 8px;
+}
+
+.event .share-icon:hover{
+    color: gray;
+}
+
+.event .modal-content{
+    color: #5b656f !important;
+}
+
+.event .event-detail {
+    font-size: 15px;
+}
+.event .icon-detail {
+    margin-bottom: 10px;
+}
+
+.event .badge-outline-info {
+    color: #17a2b8 !important;
+    border: 1px solid #17a2b8 !important;
+    background-color: transparent !important;
+}
+
+.event .no-display {
+    display: none;
+}
+
+.event .display{
+    display: block;
+}
+
+.event .alert-detail {
+    margin-bottom: -10px;
+}
+
+.event .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.event .nav-scroller .nav {
+    margin-top: 1% !important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.event .header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.event .header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+    color: #343a40!important;
+}
+
+.event .carousel-height {
+    height: 385px;
+}
+
+.event .apply-button {
+    border-radius: 20px;
+    margin-left:10px;
+}
+
+.event .card-title{
+    text-align: center;
+}
+
+.event .card-body{
+    background-color: rgba(0,0,0,.03)!important;
+}
+
+.event .card-badge{
+    margin-bottom: 8px;
+}
+
+.event .card-important{
+    border: 1.5px solid #2d4258bd
+}
+
+.event .card-featured{
+    color: #d39e00;
+    font-size: 16px;
+}
+
+.event .feature-icon{
+    margin-left: 4px;
+    color: gray;
+}
+
+.event .img-container-detail{
+    margin-bottom: 4%;
+}
+
+.event .img-detail{
+    width: 95%;
+}

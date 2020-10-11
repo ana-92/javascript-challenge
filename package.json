@@ -1,0 +1,19 @@
+{
+  "name": "vanhackchallenge",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/server/index.js",
+    "build": "webpack --config webpack.config.js",
+    "restart": "npm run build && npm start"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
